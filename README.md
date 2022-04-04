@@ -2,7 +2,7 @@
 
 ## Technical specification
  - React 18
- - RecoilJS
+ - ![RecoilJS](https://recoiljs.org/)
  - TypeScript
  - Tailwind CSS
 
