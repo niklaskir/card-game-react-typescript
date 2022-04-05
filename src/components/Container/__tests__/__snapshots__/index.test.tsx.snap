@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render correctly 1`] = `
+<div
+  className="container mx-auto py-10 px-4"
+>
+  <div
+    className="grid grid-cols-1 lg:grid-cols-3 gap-4"
+  >
+    <div>
+      Hello world
+    </div>
+  </div>
+</div>
+`;

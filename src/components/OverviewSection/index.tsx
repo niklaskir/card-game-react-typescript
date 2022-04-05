@@ -17,16 +17,16 @@ const OverviewSection = () => {
   }, []);
 
   return (
-    <div className="col-span-2">
+    <div className="col-span-1 lg:col-span-2">
       <div className="font-bold text-xl mb-2">Overview</div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {userList.map((user: any, key: number) => (
           <div
             key={key}
-            className="col-span-1 bg-slate-100 hover:bg-teal-100 cursor-pointer"
+            className="col-span-1 cursor-pointer"
             onClick={() => handleSelect(key)}
           >
-            <div className="rounded overflow-hidden shadow-lg">
+            <div className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100">
               <div className="px-6 py-4">
                 <ul className="list-disc">
                   <li className="text-gray-700 text-base">{user.realName}</li>

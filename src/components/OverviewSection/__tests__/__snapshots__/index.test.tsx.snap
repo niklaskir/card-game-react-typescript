@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OverviewSection should render correctly 1`] = `
+<div
+  className="col-span-1 lg:col-span-2"
+>
+  <div
+    className="font-bold text-xl mb-2"
+  >
+    Overview
+  </div>
+  <div
+    className="grid grid-cols-1 lg:grid-cols-3 gap-4"
+  >
+    <div
+      className="col-span-1 cursor-pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <ul
+            className="list-disc"
+          >
+            <li
+              className="text-gray-700 text-base"
+            >
+              Brianna Forbes
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Dreamlurk The Unstoppable
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Foghammer Lead
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-span-1 cursor-pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <ul
+            className="list-disc"
+          >
+            <li
+              className="text-gray-700 text-base"
+            >
+              Darcy Candice Ball
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Crystaldash
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Secret Glowquake Gold
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-span-1 cursor-pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <ul
+            className="list-disc"
+          >
+            <li
+              className="text-gray-700 text-base"
+            >
+              Hillary Gibbs
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Speedsoul
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Shifting Rainshadow Iron
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-span-1 cursor-pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <ul
+            className="list-disc"
+          >
+            <li
+              className="text-gray-700 text-base"
+            >
+              Elva Becky Hammond
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Seekvenom The Mystic
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Valkyries' Opal Adamant
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-span-1 cursor-pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <ul
+            className="list-disc"
+          >
+            <li
+              className="text-gray-700 text-base"
+            >
+              Enid Rose
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Coincurse The Ghoul
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Jewelevil Bronze Of Goddesses
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-span-1 cursor-pointer"
+      onClick={[Function]}
+    >
+      <div
+        className="rounded overflow-hidden shadow-lg bg-slate-100 hover:bg-teal-100"
+      >
+        <div
+          className="px-6 py-4"
+        >
+          <ul
+            className="list-disc"
+          >
+            <li
+              className="text-gray-700 text-base"
+            >
+              Esmeralda Carrillo
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Skulldart
+            </li>
+            <li
+              className="text-gray-700 text-base"
+            >
+              Yellow Orichalcum Of Paladins
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
