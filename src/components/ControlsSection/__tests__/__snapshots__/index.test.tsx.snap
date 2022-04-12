@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ControlsSection should call setUserList with correct params when clicking asc button 1`] = `
+exports[`ControlsSection should call setUserSort with correct params when clicking asc button 1`] = `
 <div
   className="col-span-1"
 >
@@ -54,7 +54,7 @@ exports[`ControlsSection should call setUserList with correct params when clicki
 </div>
 `;
 
-exports[`ControlsSection should call setUserList with correct params when clicking desc button 1`] = `
+exports[`ControlsSection should call setUserSort with correct params when clicking desc button 1`] = `
 <div
   className="col-span-1"
 >
