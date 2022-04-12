@@ -1,12 +1,6 @@
 import React from 'react';
 import { useRecoilValue } from 'recoil';
-import { userSelected as userSelectedState } from '../../recoil/states/userSelected';
-
-export type UserType = {
-  asset: string;
-  realName: string;
-  playerName: string;
-};
+import { userSelected as userSelectedState } from '../../recoil/states/userList';
 
 const OverviewSection = () => {
   const selectedUser = useRecoilValue(userSelectedState);

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userList should render asc user list 1`] = `
+Array [
+  <p>
+    Brianna Forbes
+  </p>,
+  <p>
+    Darcy Candice Ball
+  </p>,
+  <p>
+    Elva Becky Hammond
+  </p>,
+  <p>
+    Enid Rose
+  </p>,
+  <p>
+    Esmeralda Carrillo
+  </p>,
+  <p>
+    Hillary Gibbs
+  </p>,
+]
+`;
+
+exports[`userList should render default user list 1`] = `
+Array [
+  <p>
+    Brianna Forbes
+  </p>,
+  <p>
+    Darcy Candice Ball
+  </p>,
+  <p>
+    Hillary Gibbs
+  </p>,
+  <p>
+    Elva Becky Hammond
+  </p>,
+  <p>
+    Enid Rose
+  </p>,
+  <p>
+    Esmeralda Carrillo
+  </p>,
+]
+`;
+
+exports[`userList should render desc user list 1`] = `
+Array [
+  <p>
+    Hillary Gibbs
+  </p>,
+  <p>
+    Esmeralda Carrillo
+  </p>,
+  <p>
+    Enid Rose
+  </p>,
+  <p>
+    Elva Becky Hammond
+  </p>,
+  <p>
+    Darcy Candice Ball
+  </p>,
+  <p>
+    Brianna Forbes
+  </p>,
+]
+`;

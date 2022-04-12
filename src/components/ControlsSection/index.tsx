@@ -1,21 +1,23 @@
-import _ from 'lodash';
 import axios from 'axios';
-import React, { useState } from 'react';
-import { userSelected } from '../../recoil/states/userSelected';
-import { userList as userListState } from '../../recoil/states/userList';
-import { useRecoilState, useRecoilValue } from 'recoil';
+import React from 'react';
+import { isLoading as isLoadingState } from '../../recoil/states/isLoading';
+import {
+  userListSortType as userListSortTypeState,
+  userSelected,
+} from '../../recoil/states/userList';
+import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 
 const ControlsSection = () => {
-  const [userList, setUserList] = useRecoilState(userListState);
   const selectedUser = useRecoilValue(userSelected);
-  const [isLoading, setIsLoading] = useState(false);
+  const setUserSort = useSetRecoilState(userListSortTypeState);
+  const [isLoading, setIsLoading] = useRecoilState(isLoadingState);
 
   const handleAsc = () => {
-    setUserList(_.orderBy(userList, ['realName'], ['asc']));
+    setUserSort('Asc');
   };
 
   const handleDesc = () => {
-    setUserList(_.orderBy(userList, ['realName'], ['desc']));
+    setUserSort('Desc');
   };
 
   const handleSubmit = async () => {

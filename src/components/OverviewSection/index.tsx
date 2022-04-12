@@ -1,26 +1,24 @@
-import React, { useEffect } from 'react';
-import users from '../../data.json';
-import { useRecoilState, useSetRecoilState } from 'recoil';
-import { userList as userListState } from '../../recoil/states/userList';
-import { userSelected as userSelectedState } from '../../recoil/states/userSelected';
+import React from 'react';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
+import {
+  sortedUserList as sortedUserListState,
+  userSelected as userSelectedState,
+  UserType,
+} from '../../recoil/states/userList';
 
 const OverviewSection = () => {
-  const [userList, setUserList] = useRecoilState(userListState);
+  const sortedUserList = useRecoilValue(sortedUserListState);
   const setUserSelected = useSetRecoilState(userSelectedState);
 
   const handleSelect = (key: number) => {
-    setUserSelected(userList[key]);
+    setUserSelected(sortedUserList[key]);
   };
-
-  useEffect(() => {
-    setUserList(users);
-  }, []);
 
   return (
     <div className="col-span-1 lg:col-span-2">
       <div className="font-bold text-xl mb-2">Overview</div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        {userList.map((user: any, key: number) => (
+        {sortedUserList.map((user: UserType, key: number) => (
           <div
             key={key}
             className="col-span-1 cursor-pointer"

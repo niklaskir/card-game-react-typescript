@@ -4,8 +4,9 @@ import renderer from 'react-test-renderer';
 import DetailsSection from '../index';
 
 jest.mock('recoil', () => ({
-  useRecoilValue: jest.fn(),
   atom: jest.fn(),
+  selector: jest.fn(),
+  useRecoilValue: jest.fn(),
 }));
 
 describe('DetailsSection', function () {

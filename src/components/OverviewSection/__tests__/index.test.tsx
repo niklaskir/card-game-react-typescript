@@ -6,13 +6,14 @@ import OverviewSection from '../index';
 
 jest.mock('recoil', () => ({
   atom: jest.fn(),
-  useRecoilState: jest.fn(),
+  selector: jest.fn(),
+  useRecoilValue: jest.fn(),
   useSetRecoilState: jest.fn(),
 }));
 
 describe('OverviewSection', () => {
   beforeEach(() => {
-    Recoil.useRecoilState = jest.fn().mockReturnValueOnce([users, jest.fn()]);
+    Recoil.useRecoilValue = jest.fn().mockReturnValueOnce(users);
   });
 
   it('should render correctly', () => {
